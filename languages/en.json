@@ -1,3 +1,10 @@
 {
-    "MODULE.hello": "hello"
+  "AARDVARKS-FLANKING": {
+    "settings": {
+        "max-flanking-bonus": {
+        "Name": "Maximum flanking bonus",
+        "Hint": "The maximum flanking bonus that can be applied when a target is flanked by multiple creatures. (minimum value: 1)"
+      }
+    }
+  }
 }

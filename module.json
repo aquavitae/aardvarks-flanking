@@ -1,7 +1,7 @@
 {
-  "name": "module",
-  "title": "New Module",
-  "description": "",
+  "name": "aardvarks-flanking",
+  "title": "Aardvark's Flanking",
+  "description": "Alternative flanking rules which give a bonus according to the number of characters flanking.",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
@@ -9,25 +9,17 @@
   "compatibleCoreVersion": "9",
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "aquavitae",
+      "url": "https://github.com/aquavitae/aardvarks-flanking"
     }
   ],
   "dependencies": [
-
-  ],
-  "conflicts": [
-    
+    {
+      "name": "lib-wrapper"
+    }
   ],
   "esmodules": [
     "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
   ],
   "languages": [
     {
@@ -40,11 +32,5 @@
   "manifest": "This is auto replaced",
   "download": "This is auto replaced",
   "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
-  ]
+  "readme": "README.md"
 }
